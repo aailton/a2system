@@ -1,0 +1,27 @@
+header {
+    background: linear-gradient(180deg, #588faf 0%, #ffffff 100%);
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.a2system-logo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.a2system-logo-container img {
+    width: 235px;
+}
+
+.a2system-logo-container h1 {
+    margin-top: 15px;
+    font-size: 24px;
+}
+
+.a2system-logo-container p {
+    font-size: 14px;
+    font-weight: 300;
+}
