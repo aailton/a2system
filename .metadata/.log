@@ -715,3 +715,69 @@ Caused by: org.eclipse.lsp4j.jsonrpc.ResponseErrorException: Internal error.
 
 !ENTRY org.eclipse.ui 2 2 2022-07-16 17:24:52.537
 !MESSAGE Invalid property category path: org.springframework.ide.eclipse.beans.ui.properties.ProjectPropertyPage (bundle: org.springframework.ide.eclipse.xml.namespaces, propertyPage: org.springframework.ide.eclipse.beans.ui.namespaces.projectPropertyPage)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 19:21:28.517
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DXNVziMg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 19:21:28.518
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.DXNVziMg
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 19:21:28.518
+!MESSAGE subsribers = {}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 19:21:28.518
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.DXNVziMg => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 19:22:30.852
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 19:22:30.853
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@551bc2c6[org.springframework.tooling.boot.ls:1.29.0.202112031705(id=564)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 19:22:30.853
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 19:22:32.687
+!MESSAGE Boot LS startup time from start to initialized: 1833ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 19:22:32.773
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pgWqxzTTisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 19:22:32.773
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 19:22:32.773
+!MESSAGE Scheduling initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 19:22:32.774
+!MESSAGE Scheduling initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 19:22:32.774
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 19:22:32.774
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pgWqxzTT => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 19:22:32.777
+!MESSAGE classpath=96 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 19:22:32.779
+!MESSAGE buffering callback sts4.classpath.pgWqxzTT backend false 96
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 19:22:32.779
+!MESSAGE executing callback sts4.classpath.pgWqxzTT 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2022-07-16 19:22:33.061
+!MESSAGE executing callback sts4.classpath.pgWqxzTT SUCCESS [done]
+
+!ENTRY org.eclipse.lsp4e 2 0 2022-07-16 19:30:04.518
+!MESSAGE Javadoc unavailable. Failed to obtain it.
+!STACK 0
+java.lang.InterruptedException
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:386)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2096)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:70)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
