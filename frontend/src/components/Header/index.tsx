@@ -1,19 +1,22 @@
-import logo from '../../assets/img/image 1.svg'
+import logo from '../../assets/img/pngwing.png'
 
 import './styles.css'
 
 function Header() {
-    return (
-        <header>
-            <div className="a2system-logo-container">
-                <img src={logo} alt="A2 System" />
-                    <h1>A2 System</h1>
-                    <p>Em desenvolvimento por
-                        <a href="https://www.instagram.com/_aailton/">@_aailton</a>
-                    </p>
-            </div>
-        </header>
+    return (      
+            <main className="container-padding">
+                <div className="container-header">
+                    <p className="welcome">Bem-vindo, Usuário!</p>
+                    <br/>
+                        <div className="container-info">
+                            <div className="a2system-logo-container">
+                                <img src={logo} alt="A2 System"/>
+                                    <p>A2 System</p>
+                            </div>
+                        </div>
+                </div>
+            </main>
     )
-}
+};
 
 export default Header

@@ -1,8 +1,20 @@
 .a2system-card {
-    background-color: #588faf;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000;
     border-radius: 10px;
-    padding: 30px 10px;
+    padding: 1.5rem;
+    border: 1px solid #510fa8;
+}
+
+.a2system-sales-title {
+    font-size: 38px;
+    color: #510fa8;
+}
+
+.a2system-date-control{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .a2system-form-control {
@@ -49,7 +61,7 @@
 }
 
 .a2system-sales-table tbody tr:nth-child(odd) {
-    background-color: #84b1ca;
+    background-color: #d8dde6;
 }
 
 .a2system-red-btn-container{
