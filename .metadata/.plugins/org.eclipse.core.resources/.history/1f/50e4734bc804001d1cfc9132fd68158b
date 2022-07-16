@@ -1,0 +1,5 @@
+package com.a2system.a2system.config;
+
+public class SecurityConfig {
+
+}
